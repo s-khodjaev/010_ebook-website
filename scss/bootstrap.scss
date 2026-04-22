@@ -1,3 +1,22 @@
-$primary: #f70;
+// Font
+$font-family-sans-serif: 'Open Sans', sans-serif;
+
+// Colors
+$primary: #c167ef;
+$secondary: #10bcee;
+$dark: #2b3041;
+$light: #f3f6f9;
+
+// Navbar
+$navbar-padding-y: 1rem;
+$navbar-dark-color: #fff;
+$navbar-dark-hover-color: $secondary;
+
+// Buttons
+$button-radius: 50px;
+
+$btn-border-radius: $button-radius;
+$btn-border-radius-sm: $button-radius;
+$btn-border-radius-lg: $button-radius;
 
 @import '../node_modules/bootstrap/scss/bootstrap';

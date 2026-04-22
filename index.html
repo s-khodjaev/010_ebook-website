@@ -3,28 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/fontawesome.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/main.css" />
-    <title>Ebook Website</title>
+    <link rel="icon" href="img/favicon.png" />
+    <title>Free E-Book | Start Your Own Blog</title>
   </head>
   <body>
-    <div
-      class="container d-flex flex-column align-items-center justify-content-center vh-100 w-50"
-    >
-      <h1 class="text-primary">
-        <i class="fas fa-star"></i>
-        Ebook Website
-      </h1>
-      <p>
-        This is a boilerplate for creating and customizing Bootstrap 5 websites.
-      </p>
-      <p class="bg-light p-2">
-        Look at the <code>scss/bootstrap.scss</code> file to see how to
-        customize Bootstrap's variables and import the framework. You can also
-        add your own styles in the <code>css/main.css</code> file.
-      </p>
-    </div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="img/logo.png" alt="" width="225" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link fw-semibold">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#details" class="nav-link fw-semibold">Details</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="contact.html"
+                class="nav-link btn btn-outline-light fw-semibold px-4 mx-4"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
